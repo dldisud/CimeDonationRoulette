@@ -1,6 +1,6 @@
 # Cime Donation Roulette (시메 후원 룰렛)
 
-**Cime Donation Roulette**는 시메(Cime) 후원 및 채팅 내역을 연동하여, 마인크래프트 게임 내에서 가중치 기반의 룰렛 이벤트를 트리거할 수 있게 해주는 마인크래프트 플러그인 & 포지(Forge) 모드 프로젝트입니다.
+**Cime Donation Roulette**는 씨미(Cime) 후원 및 채팅 내역을 연동하여, 마인크래프트 게임 내에서 가중치 기반의 룰렛 이벤트를 트리거할 수 있게 해주는 마인크래프트 플러그인 & 포지(Forge) 모드 프로젝트입니다.
 
 ## 📦 제공되는 버전 (Versions)
 
@@ -32,17 +32,6 @@
 2. 서버의 `plugins/` 또는 `mods/` 폴더에 해당 jar 파일을 넣습니다.
 3. 서버를 구동하여 구성 파일(`config.yml` 등)이 생성되게 한 후, 필요한 연동 설정값(주소 등)을 세팅합니다.
 
-### ◾ 웹 및 봇 서버 구동 (개발/직접 구동 시)
-```bash
-# 의존성 설치 (pnpm 권장)
-pnpm install
-
-# 봇 서버 실행
-npm run dev:bot
-
-# 관리자 웹 실행
-npm run dev:web
-```
 
 ## 📜 라이선스 (License)
 MIT License
